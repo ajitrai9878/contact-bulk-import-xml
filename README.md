@@ -16,8 +16,15 @@
 2. Make changes to APP_URL and ASSET_URL accordingly.
 
 3. Install dependencies
-
+    ```sh
     composer install
     
     composer update
 
+4. DB configuration
+
+    Set in .env file
+    
+ 5. DB migration 
+     ```sh
+        php artisan migrate
